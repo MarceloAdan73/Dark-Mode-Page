@@ -1,3 +1,39 @@
-🔗 <a href="https://marceloadan73.github.io/Dark-Mode-Page/">Dark Mode Page</a>
+# 🌙 Dark Mode Page
 
-In this project with html, css and javascript a theme change functionality is created on the web page. When you click on the element with id 'slider', the code switches between "light" and "dark" themes, updating the data-theme attribute in the HTML document and storing the selected theme in the browser's local storage.
+A simple page with a dark / light mode switch, built with **HTML, CSS and JavaScript**.  
+User preference is saved using **localStorage** so the chosen theme persists across visits.
+
+---
+
+## 🖼️ Preview
+
+Light mode | Dark mode
+:-------------------------:|:-------------------------:
+![Light Mode](assets/light-mode.png) | ![Dark Mode](assets/dark-mode.png)
+
+---
+
+## 🚀 Live demo
+👉 [View the project on GitHub Pages](https://marceloadan73.github.io/Dark-Mode-Page/)
+
+---
+
+## 🛠️ Technologies
+- HTML5  
+- CSS3 (variables, transitions)  
+- JavaScript (DOM + localStorage)
+
+---
+
+## ✨ Features
+- Toggle between light and dark theme dynamically.  
+- Persists selection using **localStorage**.  
+- Smooth transitions between themes.  
+- Accessibility enhancements (ARIA, keyboard support, contrast-aware button).
+
+---
+
+## 🧩 How to run locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MarceloAdan73/Dark-Mode-Page.git
