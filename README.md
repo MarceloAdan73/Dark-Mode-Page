@@ -33,8 +33,6 @@ Light mode | Dark mode
 
 ---
 
-## 🧩 How to run locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MarceloAdan73/Dark-Mode-Page.git
->>>>>>> mejora
+👨‍💻 Developer  
+**Marcelo**  
+[View GitHub Profile](https://github.com/MarceloAdan73)
