@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modo oscuro</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Página con modo oscuro y claro desarrollada con HTML, CSS y JavaScript. Guarda tu preferencia automáticamente." />
+  <meta property="og:title" content="Dark Mode Page" />
+  <meta property="og:description" content="Página con modo oscuro y claro que guarda tu preferencia automáticamente." />
+  <meta property="og:image" content="assets/light-mode.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marceloadan73.github.io/Dark-Mode-Page/" />
+
+  <title>Dark Mode Page</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Pagina Con Modo Oscuro</h1>
-        <label class="switch">
-            <input type="checkbox" id="slider">
-            <span class="slider"></span>
-        </label>
-    </header>
-    <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati nemo, ex blanditiis maiores id ut harum vitae dolor, quae inventore adipisci hic sequi sed explicabo fuga itaque, corporis ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati nemo, ex blanditiis maiores id ut harum vitae dolor, quae inventore adipisci hic sequi sed explicabo fuga itaque, corporis ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati nemo, ex blanditiis maiores id ut harum vitae dolor, quae inventore adipisci hic sequi sed explicabo fuga itaque, corporis ducimus?
-    </main>
+  <header>
+    <h1>🌙 Dark Mode Page</h1>
+    <p>Alterná entre modo claro y oscuro con un clic.</p>
+  </header>
 
-    <script src="script.js" type="text/javascript" defer></script>
+  <main>
+    <!-- Botón con aria-attributes para accesibilidad -->
+    <button id="theme-toggle" class="theme-btn" aria-pressed="false" aria-label="Cambiar modo de color">
+      Cambiar modo
+    </button>
+    
+  </main>
+
+  <footer>
+    <p>Desarrollado por <a href="https://github.com/MarceloAdan73" target="_blank" rel="noopener">Marcelo Adán</a></p>
+  </footer>
+
+  <!-- Script al final del body para garantizar que el DOM exista -->
+  <script src="script.js"></script>
 </body>
 </html>

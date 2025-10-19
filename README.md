@@ -1,45 +1,40 @@
-🌙 Dark Mode Page
+# 🌙 Dark Mode Page
 
-A sleek and interactive web application to toggle between light and dark themes with a modern, minimalist design and accessibility improvements.
+A simple page with a dark / light mode switch, built with **HTML, CSS and JavaScript**.  
+User preference is saved using **localStorage** so the chosen theme persists across visits.
 
-🚀 Live Demo
+---
 
-## 🚀 Live Demo
-[View Live Application](https://marceloadan73.github.io/Dark-Mode-Page/)
+## 🖼️ Preview
 
-✨ Features
+Light mode | Dark mode
+:-------------------------:|:-------------------------:
+![Light Mode](assets/light-mode.png) | ![Dark Mode](assets/dark-mode.png)
 
-Theme Toggle: Switch seamlessly between light and dark modes.
+---
 
-Persistent Preference: Your selection is saved automatically via localStorage.
+## 🚀 Live demo
+👉 [View the project on GitHub Pages](https://marceloadan73.github.io/Dark-Mode-Page/)
 
-System Preference Detection: Adapts to your OS theme on first visit.
+---
 
-Accessible Design: ARIA attributes and keyboard support included.
+## 🛠️ Technologies
+- HTML5  
+- CSS3 (variables, transitions)  
+- JavaScript (DOM + localStorage)
 
-Responsive Interface: Optimized for desktop and mobile devices.
+---
 
-Smooth Transitions: CSS transitions make theme changes visually appealing.
+## ✨ Features
+- Toggle between light and dark theme dynamically.  
+- Persists selection using **localStorage**.  
+- Smooth transitions between themes.  
+- Accessibility enhancements (ARIA, keyboard support, contrast-aware button).
 
-🎯 How to Use
+---
 
-Toggle Theme: Click the "Change Mode" button to switch themes.
-
-Persistent Settings: Reload the page and the selected theme is retained.
-
-Keyboard Friendly: Focus the button and press Enter or Space to switch.
-
-Experiment Freely: Toggle between themes as often as you like.
-
-🛠️ Technologies Used
-
-HTML5 - Semantic and structured markup
-
-CSS3 - Variables, transitions, and responsive design
-
-JavaScript - DOM manipulation and localStorage handling
-
-👨‍💻 Developer
-
-Marcelo
-[View GitHub Profile](https://github.com/MarceloAdan73)
+## 🧩 How to run locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MarceloAdan73/Dark-Mode-Page.git
+>>>>>>> mejora
