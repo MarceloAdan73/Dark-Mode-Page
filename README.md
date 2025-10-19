@@ -5,14 +5,6 @@ User preference is saved using **localStorage** so the chosen theme persists acr
 
 ---
 
-## 🖼️ Preview
-
-Light mode | Dark mode
-:-------------------------:|:-------------------------:
-![Light Mode](assets/light-mode.png) | ![Dark Mode](assets/dark-mode.png)
-
----
-
 ## 🚀 Live demo
 👉 [View the project on GitHub Pages](https://marceloadan73.github.io/Dark-Mode-Page/)
 
